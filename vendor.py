@@ -28,7 +28,7 @@ def wait_tap(button_pin, servo_pin):
         time.sleep(0.5)
 
         pi.set_servo_pulsewidth(servo_pin, 500)
-        time.sleep(1)
+        time.sleep(0.5)
 
 try:
     while True:
